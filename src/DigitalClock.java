@@ -38,29 +38,6 @@ public class DigitalClock {
 
         frame.getContentPane().setBackground(Color.orange);
 
-        // add button
-        button1 = new JButton();
-        button1.setText("STOPWATCH");
-        button1.setSize(100, 30);
-        button1.setLocation(150,150);
-        frame.add(button1);
-        button1.setFocusable(false);
-
-        // action listener for the button
-        button1.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                if(e.getSource() == button1){
-                    frame.setSize(frame.getWidth(), frame.getHeight() + 200);
-                    button1.setText("HIDE STOPWATCH");
-                    //button1.setEnabled(false);
-
-                }
-
-            }
-        });
-
-
         // icon of frame
         image = new ImageIcon("wall-clock.png");
         frame.setIconImage(image.getImage());
@@ -105,7 +82,6 @@ public class DigitalClock {
 
 
     public void updateTime() {
-
 
         while(true) {
             time = timeFormat.format(Calendar.getInstance().getTime());
