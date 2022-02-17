@@ -1,4 +1,4 @@
-# Digital_Clock_Java_GUI ⌚ <br />
+## Digital_Clock_Java_GUI ⌚ <br />
  A very basic digital clock application with date and time created with Java. <br /> <br />
  ![Screenshot of Digital Clock](https://github.com/Kamran-Dev/Digital_Clock_Java_GUI/blob/main/Screenshot.PNG)  <br />
 
